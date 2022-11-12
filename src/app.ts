@@ -1,17 +1,25 @@
 // ----------------------------------------------------------------------------------------------
+// OSI Modal 
+
+import { decode, encode } from "./OSIModalImplementation";
+
+encode()
+decode()
+
+// ----------------------------------------------------------------------------------------------
 
 // Iterator Design Pattern
 
-import DinerMenu from "./Iterator_Design_Pattern/_01_/DinerMenu";
-import PancakeHouseMenu from "./Iterator_Design_Pattern/_01_/PancakeHouseMenu";
-import Waitress from "./Iterator_Design_Pattern/_01_/Waitress";
+// import DinerMenu from "./Iterator_Design_Pattern/_01_/DinerMenu";
+// import PancakeHouseMenu from "./Iterator_Design_Pattern/_01_/PancakeHouseMenu";
+// import Waitress from "./Iterator_Design_Pattern/_01_/Waitress";
 
-const pancakeHouseMenu: PancakeHouseMenu = new PancakeHouseMenu();
-const dinerMenu: DinerMenu = new DinerMenu();
+// const pancakeHouseMenu: PancakeHouseMenu = new PancakeHouseMenu();
+// const dinerMenu: DinerMenu = new DinerMenu();
 
-const waitress: Waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+// const waitress: Waitress = new Waitress(pancakeHouseMenu, dinerMenu);
 
-waitress.printMenu();
+// waitress.printMenu();
 
 // ------------------------------------------------------------------------------------------------
 

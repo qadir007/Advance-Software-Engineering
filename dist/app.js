@@ -1,15 +1,20 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
+// ----------------------------------------------------------------------------------------------
+// OSI Modal 
 Object.defineProperty(exports, "__esModule", { value: true });
-const DinerMenu_1 = __importDefault(require("./Iterator_Design_Pattern/_01_/DinerMenu"));
-const PancakeHouseMenu_1 = __importDefault(require("./Iterator_Design_Pattern/_01_/PancakeHouseMenu"));
-const Waitress_1 = __importDefault(require("./Iterator_Design_Pattern/_01_/Waitress"));
-const pancakeHouseMenu = new PancakeHouseMenu_1.default();
-const dinerMenu = new DinerMenu_1.default();
-const waitress = new Waitress_1.default(pancakeHouseMenu, dinerMenu);
-waitress.printMenu();
+const OSIModalImplementation_1 = require("./OSIModalImplementation");
+(0, OSIModalImplementation_1.encode)();
+(0, OSIModalImplementation_1.decode)();
+// ----------------------------------------------------------------------------------------------
+// Iterator Design Pattern
+// import DinerMenu from "./Iterator_Design_Pattern/_01_/DinerMenu";
+// import PancakeHouseMenu from "./Iterator_Design_Pattern/_01_/PancakeHouseMenu";
+// import Waitress from "./Iterator_Design_Pattern/_01_/Waitress";
+// const pancakeHouseMenu: PancakeHouseMenu = new PancakeHouseMenu();
+// const dinerMenu: DinerMenu = new DinerMenu();
+// const waitress: Waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+// waitress.printMenu();
+// ------------------------------------------------------------------------------------------------
 // Singleton Pattern
 // import ChocolateBoiler from "./Singleton/_02_The_Chocolate_Factory_to_Singleton/ChocolateBoiler";
 // const chocolateBoiler = ChocolateBoiler.getInstance();
