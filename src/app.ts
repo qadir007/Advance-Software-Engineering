@@ -1,10 +1,25 @@
 // ----------------------------------------------------------------------------------------------
-// OSI Modal 
+// Personal Chain of responsibilty 
 
-import { decode, encode } from "./OSIModalImplementation";
+import abstractFactoryTesting from "./Personal Learning/Abstract Factory- Laptop Computer Factory Example";
+import builderTesting from "./Personal Learning/Builder - User Modal Example";
+import chainOfResponsibiltyTesting from "./Personal Learning/Chain of Responsibility - Loan Example";
+import observerTesting from "./Personal Learning/Observer- Store Example";
 
-encode()
-decode()
+// chainOfResponsibiltyTesting()
+
+// observerTesting()
+// abstractFactoryTesting()
+builderTesting()
+
+
+// ----------------------------------------------------------------------------------------------
+// OSI Modal
+
+// import { decode, encode } from "./OSIModalImplementation";
+
+// encode()
+// decode()
 
 // ----------------------------------------------------------------------------------------------
 

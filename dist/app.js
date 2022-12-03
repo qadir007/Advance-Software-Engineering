@@ -1,10 +1,20 @@
 "use strict";
 // ----------------------------------------------------------------------------------------------
-// OSI Modal 
+// Personal Chain of responsibilty 
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-const OSIModalImplementation_1 = require("./OSIModalImplementation");
-(0, OSIModalImplementation_1.encode)();
-(0, OSIModalImplementation_1.decode)();
+const Builder___User_Modal_Example_1 = __importDefault(require("./Personal Learning/Builder - User Modal Example"));
+// chainOfResponsibiltyTesting()
+// observerTesting()
+// abstractFactoryTesting()
+(0, Builder___User_Modal_Example_1.default)();
+// ----------------------------------------------------------------------------------------------
+// OSI Modal
+// import { decode, encode } from "./OSIModalImplementation";
+// encode()
+// decode()
 // ----------------------------------------------------------------------------------------------
 // Iterator Design Pattern
 // import DinerMenu from "./Iterator_Design_Pattern/_01_/DinerMenu";
