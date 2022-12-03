@@ -5,12 +5,14 @@ import abstractFactoryTesting from "./Personal Learning/Abstract Factory- Laptop
 import builderTesting from "./Personal Learning/Builder - User Modal Example";
 import chainOfResponsibiltyTesting from "./Personal Learning/Chain of Responsibility - Loan Example";
 import observerTesting from "./Personal Learning/Observer- Store Example";
+import strategyTesting from "./Personal Learning/Strategy - File Storage Selector Example";
 
 // chainOfResponsibiltyTesting()
 
 // observerTesting()
 // abstractFactoryTesting()
-builderTesting()
+// builderTesting()
+strategyTesting()
 
 
 // ----------------------------------------------------------------------------------------------

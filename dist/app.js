@@ -5,11 +5,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Builder___User_Modal_Example_1 = __importDefault(require("./Personal Learning/Builder - User Modal Example"));
+const Strategy___File_Storage_Selector_Example_1 = __importDefault(require("./Personal Learning/Strategy - File Storage Selector Example"));
 // chainOfResponsibiltyTesting()
 // observerTesting()
 // abstractFactoryTesting()
-(0, Builder___User_Modal_Example_1.default)();
+// builderTesting()
+(0, Strategy___File_Storage_Selector_Example_1.default)();
 // ----------------------------------------------------------------------------------------------
 // OSI Modal
 // import { decode, encode } from "./OSIModalImplementation";
